@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="ad_listmobil">
+        <item>Toyota Avansa</item>
+        <item>Daihatsu Xenia</item>
+        <item>Mitsubishi Pajero</item>
+        <item>Toyota Fortuner</item>
+    </string-array>
+</resources>
