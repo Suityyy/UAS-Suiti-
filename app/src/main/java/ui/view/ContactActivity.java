@@ -1,4 +1,4 @@
-package com.suiti.uts;
+package ui.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.suiti.uts.R;
 
 public class ContactActivity extends AppCompatActivity {
 

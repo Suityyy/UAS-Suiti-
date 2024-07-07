@@ -1,4 +1,4 @@
-package com.suiti.uts;
+package ui.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.suiti.uts.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -40,7 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
+                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
         });
     }

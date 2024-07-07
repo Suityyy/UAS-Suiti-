@@ -27,22 +27,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.UTS" >
         <activity
-            android:name="com.suiti.uts.ContactActivity"
+            android:name="ui.view.ContactActivity"
             android:exported="true" />
         <activity
-            android:name="com.suiti.uts.StrukActivity"
+            android:name="ui.view.StrukActivity"
             android:exported="true" />
         <activity
-            android:name="com.suiti.uts.SewaMobilActivity"
+            android:name="ui.view.SewaMobilActivity"
             android:exported="true" />
         <activity
-            android:name="com.suiti.uts.DaftarMobilActivity"
+            android:name="ui.view.DaftarMobilActivity"
             android:exported="true" />
         <activity
-            android:name="com.suiti.uts.Dasboard"
+            android:name="ui.view.Dasboard"
             android:exported="true" />
         <activity
-            android:name="com.suiti.uts.LoginActivity"
+            android:name="ui.view.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.suiti.uts.RegisterActivity"
+            android:name="ui.view.RegisterActivity"
             android:exported="true" />
 
         <provider

@@ -1,8 +1,10 @@
-package com.suiti.uts;
+package ui.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.suiti.uts.R;
 
 public class MainActivity extends AppCompatActivity {
 

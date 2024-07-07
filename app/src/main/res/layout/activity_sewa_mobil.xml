@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SewaMobilActivity"
+    tools:context="ui.view.SewaMobilActivity"
     android:orientation="vertical"
     android:background="@color/azure">
 
@@ -192,12 +192,5 @@
                 android:textSize="12sp"/>
         </LinearLayout>
     </LinearLayout>
-
-    <Spinner
-        android:id="@+id/ad_listmobil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/ad_listmobil"
-        tools:ignore="DuplicateIds" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.suiti.uts;
+package ui.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.suiti.uts.R;
+
+import helper.DatabaseHelper;
+
 public class SewaMobilActivity extends AppCompatActivity {
     int harga_sewa_mobil, jml_lmsw, ttl_hargasewa, jml_uang;
     String s_nama;
@@ -19,6 +23,7 @@ public class SewaMobilActivity extends AppCompatActivity {
     EditText lama_sewa, uangbayar, nama_penyewa;
 
     String list_mobil[] = {"Toyota Avansa", "Daihatsu Xenia", "Mitsubisi Pajero", "Toyota Fortuner"};
+    DatabaseHelper db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +36,9 @@ public class SewaMobilActivity extends AppCompatActivity {
         harga_mobil = findViewById(R.id.harga_mobil);
         lama_sewa = findViewById(R.id.lama_sewa);
         uangbayar = findViewById(R.id.uangbayar);
+
+        // Inisialisasi DatabaseHelper
+        db = new DatabaseHelper(this);
 
         // Mengatur adaptor Spinner
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -67,13 +75,11 @@ public class SewaMobilActivity extends AppCompatActivity {
         if (jml_uang < ttl_hargasewa) {
             Toast.makeText(this, "Uang Kurang", Toast.LENGTH_SHORT).show();
         } else {
+            // Simpan data ke database
+            db.addSewa(s_nama, ad_listmobil.getSelectedItem().toString(), jml_lmsw, ttl_hargasewa, jml_uang, jml_uang - ttl_hargasewa);
+
+            // Pindah ke StrukActivity
             Intent intent = new Intent(SewaMobilActivity.this, StrukActivity.class);
-            intent.putExtra("nama", s_nama);
-            intent.putExtra("mobil", ad_listmobil.getSelectedItem().toString());
-            intent.putExtra("lama", jml_lmsw);
-            intent.putExtra("total", ttl_hargasewa);
-            intent.putExtra("uang", jml_uang);
-            intent.putExtra("kembalian", jml_uang - ttl_hargasewa);
             startActivity(intent);
         }
     }

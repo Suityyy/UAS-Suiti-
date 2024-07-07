@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,23 +14,22 @@
         android:theme="@style/Theme.UTS"
         tools:targetApi="31">
         <activity
-            android:name=".ContactActivity"
+            android:name="ui.view.ContactActivity"
             android:exported="true" />
         <activity
-            android:name=".StrukActivity"
+            android:name="ui.view.StrukActivity"
             android:exported="true" />
         <activity
-            android:name=".SewaMobilActivity"
+            android:name="ui.view.SewaMobilActivity"
             android:exported="true" />
         <activity
-            android:name=".DaftarMobilActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".Dasboard"
+            android:name="ui.view.DaftarMobilActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name="ui.view.Dasboard"
+            android:exported="true" />
+        <activity
+            android:name="ui.view.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +38,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="ui.view.RegisterActivity"
             android:exported="true" />
     </application>
 

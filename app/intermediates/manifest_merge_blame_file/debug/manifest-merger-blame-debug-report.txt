@@ -42,37 +42,37 @@
 28-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:12:9-41
 29        <activity
 29-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:14:9-16:39
-30            android:name="com.suiti.uts.ContactActivity"
+30            android:name="ui.theme.ContactActivity"
 30-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:15:13-44
 31            android:exported="true" />
 31-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:16:13-36
 32        <activity
 32-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:17:9-19:39
-33            android:name="com.suiti.uts.StrukActivity"
+33            android:name="ui.theme.StrukActivity"
 33-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:18:13-42
 34            android:exported="true" />
 34-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:19:13-36
 35        <activity
 35-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:20:9-22:39
-36            android:name="com.suiti.uts.SewaMobilActivity"
+36            android:name="ui.theme.SewaMobilActivity"
 36-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:21:13-46
 37            android:exported="true" />
 37-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:22:13-36
 38        <activity
 38-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:23:9-25:39
-39            android:name="com.suiti.uts.DaftarMobilActivity"
+39            android:name="ui.theme.DaftarMobilActivity"
 39-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:24:13-48
 40            android:exported="true" />
 40-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:25:13-36
 41        <activity
 41-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:27:9-29:39
-42            android:name="com.suiti.uts.Dasboard"
+42            android:name="ui.theme.Dasboard"
 42-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:28:13-37
 43            android:exported="true" />
 43-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:29:13-36
 44        <activity
 44-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:30:9-38:20
-45            android:name="com.suiti.uts.LoginActivity"
+45            android:name="ui.theme.LoginActivity"
 45-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:31:13-42
 46            android:exported="true" >
 46-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:32:13-36
@@ -89,7 +89,7 @@
 52        </activity>
 53        <activity
 53-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:39:9-41:39
-54            android:name="com.suiti.uts.RegisterActivity"
+54            android:name="ui.theme.RegisterActivity"
 54-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:40:13-45
 55            android:exported="true" />
 55-->C:\Users\asus\AndroidStudioProjects\UTS\app\src\main\AndroidManifest.xml:41:13-36

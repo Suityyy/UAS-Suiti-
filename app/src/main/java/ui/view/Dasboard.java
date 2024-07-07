@@ -1,10 +1,12 @@
-package com.suiti.uts;
+package ui.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
+
+import com.suiti.uts.R;
 
 public class Dasboard extends AppCompatActivity {
 
